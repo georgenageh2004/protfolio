@@ -187,18 +187,18 @@ export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
                 </AnimatePresence>
               </motion.button>
 
-              {/* Download CV Button */}
               <motion.a
-                href="/cv.pdf"
-                download
+                href="https://drive.google.com/file/d/1TkaiPA80e8xyADMNtvb1WESJeFO1F1T9/view?usp=drivesdk"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hidden md:flex btn-primary text-sm py-2 px-4"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 id="download-cv-btn"
-                aria-label="Download George Nageh's CV"
+                aria-label="View George Nageh's CV"
               >
                 <Download size={15} />
-                Download CV
+                View CV
               </motion.a>
 
               {/* Mobile Hamburger */}

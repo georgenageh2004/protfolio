@@ -329,22 +329,22 @@ export default function Hero({ darkMode }: HeroProps) {
               />
 
               {/* Profile Image */}
-              {/* <div
+              <div
                 className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 shadow-2xl"
                 style={{
                   borderColor: "rgba(0, 122, 255, 0.3)",
                   boxShadow: "0 20px 60px rgba(0, 122, 255, 0.25), 0 0 0 1px rgba(0,122,255,0.1)",
                 }}
               >
-                <Image */}
-              {/* src="/profile.png"
+                <Image
+                  src="/profile.png"
                   alt="George Nageh - Frontend Angular Developer"
                   fill
                   priority
                   className="object-cover object-top"
                   sizes="(max-width: 768px) 256px, (max-width: 1024px) 320px, 384px"
                 />
-              </div> */}
+              </div>
 
               {/* Floating experience badge */}
               <motion.div
